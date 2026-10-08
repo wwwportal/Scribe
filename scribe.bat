@@ -2,16 +2,18 @@
 chcp 65001 >nul
 setlocal enabledelayedexpansion
 
+:: You could very well modify this script to take path, name and url as command-line arguments. 
+
 :: ============================================================
 :: SCRIBE - YouTube Audio Downloader & Transcriber
 :: ============================================================
 
 :: ==== CONFIGURATION ====
-set "TRANSCRIPT_DIR=C:\Syntra\Scribe\transcripts"
-set "EXPORT_FILENAME=YT213 Why Supplications Not Accepted Answer from Quran"
+set "TRANSCRIPT_DIR=C:\EXPORT\PATH"
+set "EXPORT_FILENAME=INSERT THE NAME OF YOUR FILE HERE"
 :: ============================================================
 
-set "YOUTUBE_URL=https://www.youtube.com/live/QolAmtu6aAs?si=zbZeK95DD_mhinhS"
+set "YOUTUBE_URL=ENTER THE YOUTUBE URL HERE"
 
 :: ==== DOWNLOAD & TRANSCRIBE ====
 echo ============================================================
